@@ -14,26 +14,40 @@ main (){
 	printf ("Informe um valor para v2: \n");
 		scanf ("%f",&v2);
 	
-	printf ("Informe 1 para soma | Informe 2 para subtra��o \n");
+	printf ("Informe 1 para soma | Informe 2 para subtração | Informe 3 para multiplicação | Informe 4 para divisão\n");
 		scanf ("%i",&op);
 		
 		if (op == 1) {
-			result = v1+v2;
-			printf ("Resultado da soma: %.2f",result);
-			
+			result = (v1+v2);
+				printf ("Resultado da soma: %.2f",result);
 		}
 		
 		if (op == 2) {
-			
 				if (v1>v2){
 					result = (v1-v2);
-					printf ("Resultado da subtra��o: %.2f",result);
+					printf ("Resultado da subtração: %.2f",result);
 				}
 				else {
 					result = (v2-v1);
-					printf ("Resultado da subtra��o: %.2f",result);
+					printf ("Resultado da subtração: %.2f",result);
 				}
+					
+		if (op == 3) {
+			result = (v1*v2);
+				printf ("Resultado da multiplicação: %.2f",result);
+		}
 
+		}
+			if (op == 4) {
+			
+				if (v1>v2){
+					result = (v1/v2);
+					printf ("Resultado da divisão: %.2f",result);
+				}
+				else {
+					result = (v2/v1);
+					printf ("Resultado da divisão: %.2f",result);
+				}
 		}
 	
 		
