@@ -31,13 +31,13 @@ main (){
 					result = (v2-v1);
 					printf ("Resultado da subtração: %.2f",result);
 				}
+		}
 					
 		if (op == 3) {
 			result = (v1*v2);
 				printf ("Resultado da multiplicação: %.2f",result);
 		}
 
-		}
 			if (op == 4) {
 			
 				if (v1>v2){
@@ -48,7 +48,5 @@ main (){
 					result = (v2/v1);
 					printf ("Resultado da divisão: %.2f",result);
 				}
-		}
-	
-		
+		}		
 }
